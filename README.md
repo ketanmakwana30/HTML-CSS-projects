@@ -1,6 +1,16 @@
-# 🌟 30 Days - HTML & CSS Challenge  
+# 🎨 All HTML & CSS Projects
 
-Welcome to my **30-Day Frontend Challenge Repository** — a personal project where I created **30 different web pages** using **HTML & CSS** to improve my design and development skills.  
+Welcome to my **HTML and CSS Project Repository** 🚀  
+
+This repository contains a collection of modern, responsive, and creative web design projects built using pure **HTML5** and **CSS3**.  
+Each project focuses on improving frontend skills, layout design, responsiveness, and UI creativity.
+
+These projects are perfect for:
+
+- Beginners learning HTML & CSS
+- Practicing responsive layouts
+- Building frontend portfolio projects
+- Understanding real-world UI components
 
 ---
 
@@ -8,33 +18,79 @@ Welcome to my **30-Day Frontend Challenge Repository** — a personal project wh
 
 | Folder | Project Name | Description |
 |------|-------------|-------------|
-| `01_personal_portfolio` | Personal Portfolio | A clean and responsive personal portfolio website. |
-| `02_signin_signup-page` | Sign In / Sign Up Page | Modern authentication UI with login and signup forms. |
-| `03_webpage_design` | Webpage Design | Creative static webpage design using HTML & CSS. |
-| `04_business_homepage` | Business Homepage | Corporate-style homepage layout for a business website. |
-| `05_landing_page` | Landing Page | Modern landing page design for products or services. |
-| `06_social_media_selector_menu` | Social Media Selector Menu | Interactive social media menu with hover effects. |
-| `07_Profile-card` | Profile Card | Stylish profile card component with user details. |
-| `08_simple_blog_page` | Simple Blog Page | Blog layout with posts and clean typography. |
-| `09_ecommerce_page` | E-commerce Page | Simple e-commerce product showcase page. |
-| `10_event_invitation` | Event Invitation Page | Elegant event invitation page with details & CTA. |
-| `11_survey_form` | Survey Form | Interactive survey form with structured inputs. |
-| `12_recipe_page` | Recipe Page | Beautiful food recipe page layout. |
-| `13_login_page` | Login Page | Clean and responsive login form design. |
-| `14_my_site` | Personal Website | Custom personal website experiment project. |
+| `01-personal_portfolio` | Personal Portfolio | Clean and responsive personal portfolio website. |
+| `02-signin_page` | Sign In Page | Modern sign-in form UI design. |
+| `03-design_webpage` | Webpage Design | Creative static webpage layout using HTML & CSS. |
+| `04-sidebar` | Sidebar Menu | Responsive sidebar navigation menu. |
+| `05-profile_card` | Profile Card | Stylish profile card with modern UI design. |
+| `06-navbar` | Navigation Bar | Responsive navigation bar with hover effects. |
+| `07-Profile-3card` | Profile Cards | Multiple profile card layout design. |
+| `08-login_page` | Login Page | Clean and responsive login form. |
+| `09-simple_protfolio` | Simple Portfolio | Beginner-friendly portfolio website. |
+| `10-landing_page` | Landing Page | Modern product landing page design. |
+| `11-business_homepage` | Business Homepage | Professional business homepage layout. |
+| `12-parallax_web` | Parallax Website | Beautiful parallax scrolling website. |
+| `13-Product_card_boots` | Product Card | Modern e-commerce product card design. |
+| `14-simple_blog_page` | Blog Page | Clean blog page layout with typography. |
+| `15-ecommerce_page` | E-commerce Page | Simple online store product showcase. |
+| `16-event_invitation` | Event Invitation | Elegant event invitation webpage. |
+| `17-survey_form` | Survey Form | Interactive and structured survey form. |
+| `18-recipe_page` | Recipe Page | Beautiful food recipe webpage design. |
 
+---
+
+## ✨ Features
+
+✔ Fully Responsive Designs  
+✔ Modern UI Layouts  
+✔ Beginner to Advanced Projects  
+✔ Clean and Organized Code  
+✔ Real-world Frontend Practice  
+✔ No frameworks — Pure HTML & CSS  
 
 ---
 
 ## 🧰 Technologies Used
-- **HTML5**
-- **CSS3**
-- **VS Code** (Editor)
-- **Git & GitHub** (Version Control)
+
+- HTML5
+- CSS3
+- VS Code
+- Git
+- GitHub
 
 ---
 
 ## 🚀 How to Run Locally
+
 ```bash
-# Clone this repository
-git clone https://github.com/ketanmakwana30/10-HTML-CSS-projects.git
+# Clone the repository
+git clone https://github.com/ketanmakwana30/HTML-CSS-PRO.git
+    
+```
+
+---
+
+## 🎯 Purpose of This Repository
+
+This repository is created to:
+
+- Practice HTML & CSS
+- Build frontend skills
+- Create portfolio projects
+- Learn responsive design
+- Prepare for frontend developer jobs
+
+---
+
+## 👨‍💻 Author
+
+**Ketan Makwana**
+
+Frontend Developer | HTML | CSS | JavaScript
+
+GitHub:  
+https://github.com/ketanmakwana30
+
+---
+
+⭐ If you like this repository, don't forget to star it!
