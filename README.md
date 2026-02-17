@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 🎨 All HTML & CSS Projects
 
 Welcome to my **HTML and CSS Project Repository** 🚀  
@@ -12,11 +12,11 @@ These projects are perfect for:
 - Practicing responsive layouts
 - Building frontend portfolio projects
 - Understanding real-world UI components
-=======
+
+
 # 🌟 HTML & CSS Projects
 
 Welcome to my **HTML CSS Project Repository** — a personal project where I created **different different web pages** using **HTML & CSS** to improve my design and development skills.  
->>>>>>> 26299e1403386aa5b1aa6efcd73dbf225dfebfd7
 
 ---
 
@@ -53,17 +53,6 @@ Welcome to my **HTML CSS Project Repository** — a personal project where I cre
 ✔ Clean and Organized Code  
 ✔ Real-world Frontend Practice  
 ✔ No frameworks — Pure HTML & CSS  
-
----
-
-## 🧰 Technologies Used
-
-- HTML5
-- CSS3
-- VS Code
-- Git
-- GitHub
-
 ---
 
 ## 🚀 How to Run Locally
