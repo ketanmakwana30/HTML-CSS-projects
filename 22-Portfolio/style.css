@@ -7,10 +7,16 @@
 body {
     min-height: 100vh;
     width: 100%;
+    background-color: #fff;
     font-family: "Noto Sans Display", sans-serif;
+    transition: all 0.2s linear;
 }
 
 header {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    opacity: 0.9;
     height: 4rem;
     width: 100%;
     display: flex;
@@ -23,7 +29,7 @@ header h1 {
     padding: 20px;
     cursor: pointer;
     color: #fff;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 header nav {
@@ -34,13 +40,13 @@ header nav {
 
 nav ul {
     margin-right: 30px;
-    width: 40% ;
+    width: 40%;
     padding: 12px;
     display: flex;
     list-style-type: none;
     justify-content: space-evenly;
     gap: 20px;
-}   
+}
 
 ul li {
     transition: all 0.2s linear;
@@ -63,16 +69,18 @@ ul li a {
 ul li a:hover {
     border-radius: 5px;
     color: #000;
-    background-color: orange;
+    background-color: rgb(190, 190, 190);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 .hero-section {
+    margin-top: 4rem;
     display: flex;
     width: 100%;
-    height: 400px;
-    background: linear-gradient(135deg, #555463 45%, #b9b9c3 10%);
- }
+    min-height: 400px;
+    height: auto;
+    background: linear-gradient(135deg, #8791ada6 45%, #f3f3ff 10%);
+}
 
 .hero-left {
     width: 50%;
@@ -83,43 +91,43 @@ ul li a:hover {
 
 .gretting {
     font-size: 2.2rem;
-    color: rgb(255, 255, 0);
+    color: rgb(13, 10, 9);
     margin: 30px 0 0 50px;
-    font-family:cursive;
+    font-family: cursive;
 }
 
 .hero-name {
     margin: 0 0 0 50px;
-    color: rgb(251, 172, 24);
+    color: rgba(40, 51, 255, 0.877);
     font-size: 4rem;
     font-weight: 500;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.job-title  {
-    color: rgb(193, 193, 193);
+.job-title {
+    color: rgb(70, 70, 70);
     font-size: 30px;
     margin: 0 0 0 50px;
 }
 
 .hero-btn {
     width: 200px;
-    margin: 30px 0 0 50px;
+    margin: 30px 0 10px 50px;
     font-family: cursive;
     font-size: 20px;
     padding: 15px;
-    box-shadow: 0 0 10px rgb(0, 0, 0);
     text-align: center;
     border-radius: 8px;
-    background-color: #ccdcdc;
+    background-color: #1100ffc2;
     cursor: pointer;
     transition: all 0.2s;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.4);
 }
 
 .hero-btn:hover {
-    transform:  translateY(-3px);
-    background-color: #c2cccc;
-    box-shadow: 0 0 15px rgb(0, 0, 0);
+    transform: translateY(-3px);
+    background-color: #1c0cffc2;
+    box-shadow: 0 0 15px rgb(0, 0, 0, 0.5);
 }
 
 .hero-right {
@@ -135,8 +143,8 @@ ul li a:hover {
 
 .hero-img img {
     height: 350px;
-    margin-left: 200px;
-    border-radius: 2rem;
+    margin-left: 250px;
+    border-radius: 20px;
     transition: all 0.3s linear;
     box-shadow: 0 0 5px rgb(255, 255, 255);
 }
@@ -152,20 +160,23 @@ ul li a:hover {
     justify-content: center;
 }
 
-.about-section {
-    margin-top: 20px;
-    height: 400px;
+.about-section,
+section {
+    position: relative;
+    min-height: 400px;
+    height: auto;
     width: 97%;
-    border-radius: 20px;
     margin: 20px;
-    background-color: rgb(220, 207, 207);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: relative;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    background-color: rgb(246, 246, 246);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
-.about-section h1 {
+.section-h1 {
     position: absolute;
     top: 10px;
     font-size: 3rem;
@@ -173,7 +184,7 @@ ul li a:hover {
 }
 
 .about-left {
-    height: 40% ;
+    height: 40%;
     width: 30%;
     margin-top: 50px;
     display: flex;
@@ -191,4 +202,156 @@ ul li a:hover {
 
 .about-right {
     width: 70%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.about-main-p {
+    font-size: 2rem;
+
+}
+
+.about-sec-p {
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+    color: #151010;
+}
+
+.about-other-p {
+    font-size: 1rem;
+    opacity: 0.9;
+    color: #161414;
+}
+
+.skill-section {
+    min-height: 300px;
+    height: auto;
+}
+
+.skill-lists {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.skill-li {
+    padding: 40px;
+    width: 250px;
+    margin: 50px 15px 15px 15px;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: all 0.2s linear;
+    background-color: #5a6affce;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.skill-li:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.project-section {
+    min-height: 500px;
+    height: auto;
+    margin: 20px;
+}
+
+.project-lists {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.card {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    margin: 7rem 20px 20px 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+.card img {
+    height: 250px;
+    width: 400px;
+    border-radius: 12px 12px 0 0;
+}
+
+.project-title {
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.project-btn {
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    transition: all 0.2s linear;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+}
+
+.project-btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+}
+
+.contact-section {
+    min-height: 300px;
+    height: auto;
+}
+
+.contact-section span {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.contact-lists {
+    margin: 50px 0 10px 80px;
+}
+
+.contact-lists .list {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    padding: 10px;
+}
+
+footer {
+    height: 5rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+}
+
+.icons i {
+    font-size: 25px;
+    transition: all 0.2s linear;
+    opacity: 0.5;
+    color: white;
+}   
+
+.icons i:hover {
+    opacity: 1;
 }

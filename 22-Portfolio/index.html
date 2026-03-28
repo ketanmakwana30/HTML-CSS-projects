@@ -5,24 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   </head>
   <body>
     <header>
       <h1>Portfolio</h1>
       <nav>
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Skills</a></li>
-          <li><a href="">Projects</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="#hero-section">Home</a></li>
+          <li><a href="#about-section">About</a></li>
+          <li><a href="#skill-section">Skills</a></li>
+          <li><a href="#project-section">Projects</a></li>
+          <li><a href="#contact-section">Contact</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
       
-      <section class="hero-section">
+      <div id="hero-section" class="hero-section">
         <div class="hero-left">
           <div class="gretting">Hi !, I'm</div>
           <!-- <h1 class="hero-name">кєтαη мαкωαηα</h1> -->
@@ -35,27 +36,103 @@
             <img src="./Images/hero.jpg" alt="my Picture" />
           </div>
         </div>
-      </section>
+      </div>
+
+
 
       <div class="about-main">
-        <section class="about-section">
-          <h1>About</h1>
 
+        <section id="about-section" class="about-section">
+          <h1 class="section-h1">About</h1>
           <div class="about-left">
             <img src="./Images/about.jpg" alt="">
           </div>
-
           <div class="about-right">
-            <h2 class="about-main-p">Hello everyone !, I'm Ketan Makwana</h2>
-            <p>A dedicated Web Developer focused on building responsive and user-friendly websites.</p>
-            <p>I have experience working with HTML, CSS, and JavaScript, and I enjoy developing clean and efficient web applications. I’m passionate about learning new technologies and improving my development skills.</p>
-            <p>My goal is to become a skilled developer and contribute to meaningful projects that create real value.</p>
+            <h2 class="about-main-p">Hello everyone!, I'm Ketan Makwana</h2>
+            <p class="about-sec-p">A dedicated Web Developer focused on building responsive and user-friendly websites.</p>
+            <p class="about-other-p">I have experience working with HTML, CSS, and JavaScript, and I enjoy developing clean and efficient web applications. <br>I’m passionate about learning new technologies and improving my development skills.</p>
+            <p class="about-other-p">My goal is to become a skilled developer and contribute to meaningful projects that create real value.</p>
           </div>
+        </section>
+
+      </div>
+
+      <section id="skill-section" class="skill-section">
+        <h1 class="section-h1">Skills</h1>
+        <div class="skill-lists">
+          <div class="skill-li">HTML5</div>
+          <div class="skill-li">CSS3</div>
+          <div class="skill-li">JavaScript</div>
+        </div>
       </section>
-    </div>
+
+      <section id="project-section" class="project-section">
+        <h1 class="section-h1">Projects</h1>
+        <div class="project-lists">
+          
+            <div class="card">
+              <img src="./Images/01-card-sign_in.png  " alt="">
+              <div class="project-title">Sign-in Page</div>
+              <button class="project-btn">Show Project</button>
+            </div>
+
+            <div class="card">
+              <img src="./Images/02-card-webpage.png" alt="">
+              <div class="project-title">Simple Webpage</div>
+              <button class="project-btn">Show Project</button>
+            </div>
+            <div class="card">
+              <img src="./Images/03-card-profile_card.png" alt="">
+              <div class="project-title">Profile Card</div>
+              <button class="project-btn">Show Project</button>
+            </div>
+            <div class="card">
+              <img src="./Images/04-card-master_card_1.png" alt="">
+              <div class="project-title">Master Card</div>
+              <button class="project-btn">Show Project</button>
+            </div>
+            <div class="card">
+              <img src="./Images/05-card-landing_page.png" alt="">
+              <div class="project-title">Landing Page</div>
+              <button class="project-btn">Show Project</button>
+            </div>
+            <div class="card">
+              <img src="./Images/06-card-nav_footer.png" alt="">
+              <div class="project-title">Header & Footer</div>
+              <button class="project-btn">Show Project</button>
+            </div>
+         
+        </div>
+      </section>
+
+      <section id="contact-section" class="contact-section">
+        <h1 class="section-h1">Contact</h1>
+        <div class="contact-lists">
+          <div class="list"><span>Email:</span> ketan**********30@gmial.com </div>
+          <div class="list"><span>Phone:</span> 79*******31   </div>
+          <div class="list"><span>Address:</span> Bhavnagar, Gujarar </div>
+        </div>
+      </section>
       
     </main>
     
-    <footer></footer>
+    <footer>
+      <div class="icons">
+        <a href="https://github.com/ketanmakwana30" target="_blank" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/ketan_makwana30/" target="_blank" title="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/ketan-makwana-webdev0130/" target="_blank" title="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://www.youtube.com/@ketanmakwana30" target="_blank" title="YouTube">
+          <i class="fab fa-youtube"></i>
+        </a>
+      </div>  
+      <p> &copy; 2026 Ketan makwana. All rights reserved.</small></p>
+    </footer>
+
   </body>
 </html>
