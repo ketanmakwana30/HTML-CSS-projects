@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Delius&family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Playwrite+HR+Lijeva:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8fafc;
+    font-family: "DM Sans", sans-serif;
+}
+
+.container {
+    min-height: 90vh;
+    width: 45%;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+}
+
+.image {
+    margin: 25px ;
+    height: 120px;
+    width: 120px;
+    padding: 2px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid rgb(103, 99, 237);
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#name {
+    color: rgb(21, 21, 46);
+
+}
+
+#role {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #5e6677;
+}
+
+section {
+    height: auto;
+    width: 95%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+hr {
+    height: 1.5px;
+    width: 100%;
+    border: none;
+    background-color: rgba(32, 32, 94, 0.127);
+}
+
+section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    color: rgb(29, 29, 69);
+}
+
+.about p {
+    color: #5e6677;
+    padding: 10px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;   
+}
+
+.skills ul hr {
+    width: 1.3px;
+    height: 40px;
+    border: none;
+    background-color: rgba(32, 32, 94, 0.283);
+}
+
+.skills ul li {
+    color: #5e6677;
+}
+
+.hobbies ul {
+    padding: 10px;
+    list-style-type: none;
+    color: #5e6677;
+}
+
+button {
+    margin: 20px;
+    height: 35px;
+    width: 120px;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 24px;
+    transition: all 0.3s;
+    background-color: rgb(255, 178, 78);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
+
+button:hover {
+    background-color: rgba(255, 160, 36, 0.942);
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+
+@media (max-width:768px) {
+    .container {
+        width: 90%;
+    }
+}
