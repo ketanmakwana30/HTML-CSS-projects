@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  padding: 30px 100px;
+  line-height: 1.6;
+  color: #111;
+  background-color: #f4f4f9;
+  font-family: Arial, sans-serif;
+}
+
+header nav {
+  height: 100px;
+  width: 100%;
+  padding: 10px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+}
+
+main {
+  padding: 50px;
+  display: flex;
+  gap: 100px;
+}
+
+.left {
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.left h4 {
+  font-size: 90%;
+  margin-bottom: -30px;
+  color: lightslategrey;
+}
+
+.left p {
+  margin-top: -20px;
+  font-size: 90%;
+  color: gray;
+  width: 60%;
+}
+
+.btns {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  outline: none;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  transition: 0.3s all ease;
+}
+
+button:hover {
+  transform: translateY(-3px);
+}
+
+header button,
+#start {
+  background-color: #641aa4d9;
+}
+
+#tour {
+  background-color: black;
+}
+
+.right img {
+  height: 440px;
+  width: 350px;
+  border-radius: 14px;
+}
