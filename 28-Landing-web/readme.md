@@ -1,3 +1,3 @@
 ## Landing Web Page
 
-![landing](../Screenshot/28-landing-web.png)
+![landing](../Screenshot/28-landing-page.png)

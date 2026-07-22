@@ -1,97 +1,112 @@
+/* Modern Reset & Box-Sizing Fix */
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box; /* Crucial: Prevents padding from breaking layout widths */
 }
 
 body {
-  height: 100vh;
-  width: 100%;
-  padding: 30px 100px;
+  font-family:
+    "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Clean, modern font stack */
+  background: #f8f9fa; /* Softer, cleaner off-white */
+  color: #333333;
   line-height: 1.6;
-  color: #111;
-  background-color: #f4f4f9;
-  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; /* Allows footer to sit perfectly at the bottom */
 }
 
-header nav {
-  height: 100px;
-  width: 100%;
-  padding: 10px 80px;
+header {
+  background: #1a1a1a;
+  color: #ffffff;
+  padding: 30px 20px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-nav ul {
+header h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+ul {
   display: flex;
-  justify-content: space-evenly;
-  width: 40%;
+  gap: 40px;
+  font-size: 18px;
   list-style-type: none;
 }
 
-ul li a {
-  text-decoration: none;
-  color: #444;
-  font-weight: bold;
+ul li {
+  transition: all 0.3s linear;
 }
 
-main {
-  padding: 50px;
+ul li:hover {
+  color: orange;
+}
+/* Container / About Section */
+.about {
   display: flex;
-  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  gap: 40px; /* Gives breathing room between text and image */
+  max-width: 1000px;
+  margin: 60px auto; /* Centers the container horizontally */
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px; /* Soft, modern corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); /* Soft shadow instead of harsh border */
 }
 
 .left {
-  height: 400px;
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
-}
-
-.left h4 {
-  font-size: 90%;
-  margin-bottom: -30px;
-  color: lightslategrey;
+  flex: 1;
+  text-align: left; /* Reading long paragraphs centered is tough on the eyes */
 }
 
 .left p {
-  margin-top: -20px;
-  font-size: 90%;
-  color: gray;
-  width: 60%;
+  color: #555;
+  font-size: 1.05rem;
 }
 
-.btns {
+.right {
+  flex: 1;
   display: flex;
-  gap: 20px;
-}
-
-button {
-  outline: none;
-  padding: 10px 20px;
-  color: white;
-  border: none;
-  outline: none;
-  border-radius: 8px;
-  transition: 0.3s all ease;
-}
-
-button:hover {
-  transform: translateY(-3px);
-}
-
-header button,
-#start {
-  background-color: #641aa4d9;
-}
-
-#tour {
-  background-color: black;
+  justify-content: center;
 }
 
 .right img {
-  height: 440px;
-  width: 350px;
-  border-radius: 14px;
+  max-height: 350px;
+  width: 100%;
+  object-fit: cover; /* Ensures the image doesn't distort */
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Modern Sticky Footer */
+footer {
+  margin-top: auto; /* Pushes footer to the bottom naturally without breaking layouts */
+  padding: 20px;
+  color: #d2d2d2;
+  background-color: #1a1a1a;
+  text-align: center;
+  font-size: 1rem;
+}
+
+/* Responsive Design for Mobile Devices */
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column-reverse; /* Stacks image on top of text on mobile */
+    margin: 20px;
+    gap: 20px;
+  }
+
+  .left {
+    text-align: center;
+  }
+}
+
+section button {
+  margin-top: 50px;
+  background-color: rgb(246, 255, 0);
 }
